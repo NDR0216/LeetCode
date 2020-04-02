@@ -46,6 +46,3 @@ class Solution:
         num2 = self.convert_1971(yr2, month2, day2)
         
         return abs(num1-num2)
-        
-## type conert
-## switch
