@@ -15,6 +15,3 @@ class Solution:
                 ans = key
                     
         return ans
-            
-            
-# list method
