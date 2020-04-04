@@ -5,7 +5,7 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.py) | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.cpp) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/SingleNumber/SingleNumber.py) | |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/HappyNumber/HappyNumber.py) | |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MoveZeroes/MoveZeroes.py) | |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MoveZeroes/MoveZeroes.py) | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/MoveZeroes/MoveZeroes.cpp) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [py](https://github.com/AQZ0216/LeetCode/tree/master/CountNegativeNumbersInASortedMatrix/CountNegativeNumbersInASortedMatrix.py) | |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | [py](https://github.com/AQZ0216/LeetCode/tree/master/SortIntegersByTheNumberOf1Bits/SortIntegersByTheNumberOf1Bits.py) | |
 | 1357 | [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ApplyDiscountEveryNOrders/ApplyDiscountEveryNOrders.py) | |
