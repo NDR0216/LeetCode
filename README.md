@@ -16,3 +16,7 @@
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | [py](https://github.com/AQZ0216/LeetCode/edit/master/FindLuckyIntegerInAnArray/FindLuckyIntegerInAnArray.py) | |
 | 1395 | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CountNumberOfTeams/CountNumberOfTeams.py) | |
 | 1396 | [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/DesignUndergroundSystem/DesignUndergroundSystem.py) | |
+| 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CountLargestGroup/CountLargestGroup.py) | |
+| 1400 | [Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ConstructKPalindromeStrings/ConstructKPalindromeStrings.py) | |
+| 1401 | [Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CircleAndRectangleOverlapping/CircleAndRectangleOverlapping.py) | |
+| 1402 | [Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ReducingDishes/ReducingDishes.py) | |
