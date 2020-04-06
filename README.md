@@ -2,6 +2,7 @@
 
 | # | Problems | Python | C++ |
 | ----- | ----- | ----- | ----- |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/GroupAnagrams/GroupAnagrams.py) | |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.py) | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.cpp) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/BestTimeToBuyAndSellStockII/BestTimeToBuyAndSellStockII.py) | |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/SingleNumber/SingleNumber.py) | |
