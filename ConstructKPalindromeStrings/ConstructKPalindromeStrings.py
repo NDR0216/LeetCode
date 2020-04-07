@@ -4,10 +4,7 @@ class Solution:
         
         for i in s:
             value = chars.get(i, 0)
-            if value == 0:
-                chars[i] = 1
-            else:
-                chars[i] = value+1
+            chars[i] = value+1
                 
         pair = 0
         single = 0
