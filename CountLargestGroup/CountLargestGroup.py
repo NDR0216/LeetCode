@@ -9,10 +9,7 @@ class Solution:
                 i = int(i/10)
             
             value = size.get(sum, 0)
-            if value == 0:
-                size[sum] = 1
-            else:
-                size[sum] = value+1
+            size[sum] = value+1
         
         max = 0
         max_cnt = 0
