@@ -30,6 +30,4 @@ class Solution:
         for i in range(length):
             ans[i] = nums.index(original[i])
         
-        print(ans)
-        
         return ans
