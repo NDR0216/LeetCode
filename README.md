@@ -12,6 +12,7 @@
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/DiameterOfBinaryTree/DiameterOfBinaryTree.py) | |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/BackspaceStringCompare/BackspaceStringCompare.py) | |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MiddleOfTheLinkedList/MiddleOfTheLinkedList.py) | |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/LastStoneWeight/LastStoneWeight.py) | |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [py](https://github.com/AQZ0216/LeetCode/tree/master/CountNegativeNumbersInASortedMatrix/CountNegativeNumbersInASortedMatrix.py) | |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | [py](https://github.com/AQZ0216/LeetCode/tree/master/SortIntegersByTheNumberOf1Bits/SortIntegersByTheNumberOf1Bits.py) | |
 | 1357 | [Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ApplyDiscountEveryNOrders/ApplyDiscountEveryNOrders.py) | |
