@@ -2,6 +2,7 @@
 
 | # | Problems | Python | C++ |
 | ----- | ----- | ----- | ----- |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/SearchInRotatedSortedArray/SearchInRotatedSortedArray.py) | |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/GroupAnagrams/GroupAnagrams.py) | |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.py) | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.cpp) |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MinimumPathSum/MinimumPathSum.py) | |
