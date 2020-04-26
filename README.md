@@ -47,3 +47,7 @@
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ReformatTheString/ReformatTheString.py) | |
 | 1418 | [Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/DisplayTableOfFoodOrdersInARestaurant/DisplayTableOfFoodOrdersInARestaurant.py) | |
 | 1419 | [Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MinimumNumberOfFrogsCroaking/MinimumNumberOfFrogsCroaking.py) | |
+| 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaximumScoreAfterSplittingAString/MaximumScoreAfterSplittingAString.py) | |
+| 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaximumPointsYouCanObtainFromCards/MaximumPointsYouCanObtainFromCards.py) | |
+| 1424 | [Diagonal TraverseII](https://leetcode.com/problems/diagonal-traverse-ii/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/DiagonalTraverseII/DiagonalTraverseII.py) | |
+| 1425 | [Constrained Subset Sum](https://leetcode.com/problems/constrained-subset-sum/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ConstrainedSubsetSum/ConstrainedSubsetSum.py) | |
