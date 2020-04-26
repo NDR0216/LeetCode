@@ -5,6 +5,7 @@
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/SearchInRotatedSortedArray/SearchInRotatedSortedArray.py) | |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/GroupAnagrams/GroupAnagrams.py) | |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.py) | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/MaximumSubarray/MaximumSubarray.cpp) |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/JumpGame/JumpGame.py) | |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MinimumPathSum/MinimumPathSum.py) | |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/BestTimeToBuyAndSellStockII/BestTimeToBuyAndSellStockII.py) | |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [py (not O(1))](https://github.com/AQZ0216/LeetCode/blob/master/LRUCache/LRUCache.py) | |
