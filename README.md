@@ -1,11 +1,11 @@
 # LeetCode
 
 ## Progress
-* Solved: 55/1430 (3.78%)
-* Easy: 25
-* Meduim: 27
+* Solved: 58/1430 (3.78%)
+* Easy: 26
+* Meduim: 29
 * Hard: 3
-<!--- Easy+2 Meduim+1 -->
+<!--- Solved+3 Easy+2 Meduim+1 -->
 
 ## Problem
 | # | Problems | Python | C++ |
@@ -65,3 +65,6 @@
 | 1426 | [Counting Elements](https://leetcode.com/problems/counting-elements/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CountingElements/CountingElements.py) | |
 | 1427 | [Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/PerformStringShifts/PerformStringShifts.py) | |
 | 1428 | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/LeftmostColumnWithAtLeastAOne/LeftmostColumnWithAtLeastAOne.py) | |
+| 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/KidsWithTheGreatestNumberOfCandies/KidsWithTheGreatestNumberOfCandies.py) | |
+| 1432 | [Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaxDifferenceYouCanGetFromChangingAnInteger/MaxDifferenceYouCanGetFromChangingAnInteger.py) | |
+| 1433 | [Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/submissions/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CheckIfAStringCanBreakAnotherString/CheckIfAStringCanBreakAnotherString.py) | |
