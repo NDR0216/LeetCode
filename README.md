@@ -1,5 +1,12 @@
 # LeetCode
 
+## Progress
+* Solved: 54/1430 (3.78%)
+* Easy: 24
+* Meduim: 27
+* Hard: 3
+
+## Problem
 | # | Problems | Python | C++ |
 | ----- | ----- | ----- | ----- |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/SearchInRotatedSortedArray/SearchInRotatedSortedArray.py) | |
@@ -11,7 +18,7 @@
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [py (not O(1))](https://github.com/AQZ0216/LeetCode/blob/master/LRUCache/LRUCache.py) | |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MinStack/MinStack.py) | |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/SingleNumber/SingleNumber.py) | |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/NumberOfIslands/NumberOfIslands.py.) | |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/NumberOfIslands/NumberOfIslands.py) | |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/BitwiseANDOfNumbersRange/BitwiseANDOfNumbersRange.py) | |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/HappyNumber/HappyNumber.py) | |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ProductOfArrayExceptSelf/ProductOfArrayExceptSelf.py) | |
@@ -53,3 +60,6 @@
 | 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaximumPointsYouCanObtainFromCards/MaximumPointsYouCanObtainFromCards.py) | |
 | 1424 | [Diagonal TraverseII](https://leetcode.com/problems/diagonal-traverse-ii/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/DiagonalTraverseII/DiagonalTraverseII.py) | |
 | 1425 | [Constrained Subset Sum](https://leetcode.com/problems/constrained-subset-sum/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/ConstrainedSubsetSum/ConstrainedSubsetSum.py) | |
+| 1426 | [Counting Elements](https://leetcode.com/problems/counting-elements/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CountingElements/CountingElements.py) | |
+| 1427 | [Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/PerformStringShifts/PerformStringShifts.py) | |
+| 1428 | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/LeftmostColumnWithAtLeastAOne/LeftmostColumnWithAtLeastAOne.py) | |
