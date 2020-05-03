@@ -1,0 +1,13 @@
+class Solution:
+    def kLengthApart(self, nums: List[int], k: int) -> bool:
+        place = k
+        for i in nums:
+            if i == 1:
+                if place < k:
+                    return False
+                else:
+                    place = 0
+            else:
+                place += 1
+                
+        return True
