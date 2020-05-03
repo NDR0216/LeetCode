@@ -1,9 +1,9 @@
 # LeetCode
 
 ## Progress
-* Solved: 58/1430 (3.78%)
-* Easy: 26
-* Meduim: 29
+* Solved: 60/1430 (3.78%)
+* Easy: 27
+* Meduim: 30
 * Hard: 3
 <!--- Solved+3 Easy+2 Meduim+1 -->
 
@@ -68,3 +68,5 @@
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/KidsWithTheGreatestNumberOfCandies/KidsWithTheGreatestNumberOfCandies.py) | |
 | 1432 | [Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/MaxDifferenceYouCanGetFromChangingAnInteger/MaxDifferenceYouCanGetFromChangingAnInteger.py) | |
 | 1433 | [Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/submissions/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CheckIfAStringCanBreakAnotherString/CheckIfAStringCanBreakAnotherString.py) | |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/DestinationCity/DestinationCity.py) | |
+| 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [py](https://github.com/AQZ0216/LeetCode/blob/master/CheckIfAll1'sAreAtLeastLengthKPlacesAway/CheckIfAll1'sAreAtLeastLengthKPlacesAway%2Cpy) | |
