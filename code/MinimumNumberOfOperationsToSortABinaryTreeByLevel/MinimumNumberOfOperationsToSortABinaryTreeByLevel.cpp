@@ -11,11 +11,6 @@
  */
 class Solution {
 public:
-    bool comp (int i,int j) { 
-        return (i<j); 
-    }
-    
-    
     int minimumOperations(TreeNode* root) {
         int operations = 0;
 
