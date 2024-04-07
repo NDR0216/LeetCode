@@ -1,10 +1,10 @@
 # LeetCode
 
-## Progress
+<!-- ## Progress
 * Solved: 68/2296 (2.96%)
 * Easy: 30/576 (5.21%)
 * Meduim: 34/1220 (2.79%)
-* Hard: 4/500 (0.8%)
+* Hard: 4/500 (0.8%) -->
 
 ## Problem
 | #    | Problems                                                                                                                                                                | Difficulty | C++                                                                                                                                                                 | Python                                                                                                                                                                        |
@@ -30,6 +30,7 @@
 | 476  | [Number Complement](https://leetcode.com/problems/number-complement/)                                                                                                   | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/NumberComplement/NumberComplement.py)                                                                               |
 | 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                                                       | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/DiameterOfBinaryTree/DiameterOfBinaryTree.py)                                                                       |
 | 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                           | Medium     |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/SubarraySumEqualsK/SubarraySumEqualsK.py)                                                                           |
+| 678  | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [cpp](https://github.com/NDR0216/LeetCode/blob/master/code/ValidParenthesisString/ValidParenthesisString.cpp) | |
 | 739  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                                                                                                 | Medium     | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/code/DailyTemperatures/DailyTemperatures.cpp)                                                                 |                                                                                                                                                                               |
 | 771  | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)                                                                                                   | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/JewelsAndStones/JewelsAndStones.py)                                                                                 |
 | 844  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)                                                                                     | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/BackspaceStringCompare/BackspaceStringCompare.py)                                                                   |
