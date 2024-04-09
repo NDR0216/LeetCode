@@ -1,10 +1,10 @@
 # LeetCode
 
-<!-- ## Progress
-* Solved: 68/2296 (2.96%)
-* Easy: 30/576 (5.21%)
-* Meduim: 34/1220 (2.79%)
-* Hard: 4/500 (0.8%) -->
+## Progress
+* Solved: 105
+* Easy: 42
+* Medium: 59
+* Hard: 4
 
 ## Problem
 | #    | Problems                                                                                                                                                                | Difficulty | C++                                                                                                                                                                 | Python                                                                                                                                                                        |
@@ -81,7 +81,8 @@
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)                           | Medium     | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/code/CheckIfAStringContainsAllBinaryCodesOfSizeK/CheckIfAStringContainsAllBinaryCodesOfSizeK.cpp)             |                                                                                                                                                                               |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                                                                                       | Easy       | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/code/RunningSumOf1dArray/RunningSumOf1dArray.cpp)                                                             |                                                                                                                                                                               |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | Easy | [cpp](https://github.com/NDR0216/LeetCode/blob/master/code/MakeTheStringGreat/MakeTheStringGreat.cpp) | |
-| 1700 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/) | Easy | [cpp](https://github.com/NDR0216/LeetCode/blob/master/code/NumberOfStudentsUnableToEatLunch/NumberOfStudentsUnableToEatLunch.cpp) | |
+| 1700 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [cpp](https://github.com/NDR0216/LeetCode/blob/master/code/NumberOfStudentsUnableToEatLunch/NumberOfStudentsUnableToEatLunch.cpp) | |
+| 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [cpp](https://github.com/NDR0216/LeetCode/blob/master/code/TimeNeededToBuyTickets/TimeNeededToBuyTickets.cpp) | |
 | 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/)                                                                                                             | Easy       | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/code/MinMaxGame/MinMaxGame.cpp)                                                                               |                                                                                                                                                                               |
 | 2294 | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/)                                   | Medium     | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/code/PartitionArraySuchThatMaximumDifferenceIsK/PartitionArraySuchThatMaximumDifferenceIsK.cpp)               |                                                                                                                                                                               |
 | 2295 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/)                                                                             | Medium     | [cpp](https://github.com/AQZ0216/LeetCode/blob/master/code/ReplaceElementsInAnArray/ReplaceElementsInAnArray.cpp)                                                   |                                                                                                                                                                               |
