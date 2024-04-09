@@ -1,8 +1,8 @@
 # LeetCode
 
 ## Progress
-* Solved: 105
-* Easy: 42
+* Solved: 106
+* Easy: 43
 * Medium: 59
 * Hard: 4
 
