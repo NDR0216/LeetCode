@@ -13,19 +13,17 @@
 class Solution {
 public:
     int sumNumbers_(TreeNode* root, int num) {
-        if (!root->left && !root->right) {
-            return 10 * num + root->val;
+        if (!root) {
+            return 0;
         }
 
-        int sum = 0;
-        if (root->left) {
-            sum += sumNumbers_(root->left, 10 * num + root->val);
-        }
-        if (root->right) {
-            sum += sumNumbers_(root->right, 10 * num + root->val);
+        num = 10 * num + root->val;
+
+        if (!root->left && !root->right) { // leaf node
+            return num;
         }
 
-        return sum;
+        return sumNumbers_(root->left, num) + sumNumbers_(root->right, num);
     }
 
     int sumNumbers(TreeNode* root) { return sumNumbers_(root, 0); }
