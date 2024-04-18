@@ -1,9 +1,9 @@
 # LeetCode
 
 ## Progress
-* Solved: 108
+* Solved: 109
 * Easy: 44
-* Medium: 60
+* Medium: 61
 * Hard: 4
 
 ## Problem
@@ -38,6 +38,7 @@
 | 771  | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)                                                                                                   | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/JewelsAndStones/JewelsAndStones.py)                                                                                 |
 | 844  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)                                                                                     | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/BackspaceStringCompare/BackspaceStringCompare.py)                                                                   |
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                   | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/MiddleOfTheLinkedList/MiddleOfTheLinkedList.py)                                                                     |
+| 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) | Medium | [cpp](https://github.com/NDR0216/LeetCode/blob/master/code/SmallestStringStartingFromLeaf/SmallestStringStartingFromLeaf.cpp) | |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)                             | Medium     |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/ConstructBinarySearchTreeFromPreorderTraversal/ConstructBinarySearchTreeFromPreorderTraversal.py)                   |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)                                                                                                   | Easy       |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/LastStoneWeight/LastStoneWeight.py)                                                                                 |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                 | Medium     |                                                                                                                                                                     | [py](https://github.com/AQZ0216/LeetCode/blob/master/code/LongestCommonSubsequence/LongestCommonSubsequence.py)                                                               |
