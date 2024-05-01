@@ -63,7 +63,8 @@ public:
             chars[root].push_back(s[i]);
         }
 
-        for (auto it = chars.begin(); it != chars.end(); ++it) {
+        for (unordered_map<int, string>::iterator it = chars.begin();
+             it != chars.end(); ++it) {
             int key = it->first;
             string str = it->second;
             int length = it->second.size();
