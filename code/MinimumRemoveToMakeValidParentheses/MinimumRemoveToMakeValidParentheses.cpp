@@ -1,30 +1,31 @@
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
-        int paren_cnt = 0;
+        // two pass
+        int cnt_paren = 0;
 
         for (int i = 0; i < s.length(); i++) {
             if (s[i] == '(') {
-                paren_cnt++;
+                cnt_paren++;
             } else if (s[i] == ')') {
-                if (paren_cnt == 0) {
+                if (cnt_paren == 0) {
                     s[i] = '\0';
-                    continue;
+                } else {
+                    cnt_paren--;
                 }
-                paren_cnt--;
             }
         }
 
-        paren_cnt = 0;
+        cnt_paren = 0;
         for (int i = s.size() - 1; i >= 0; i--) {
             if (s[i] == ')') {
-                paren_cnt++;
+                cnt_paren++;
             } else if (s[i] == '(') {
-                if (paren_cnt == 0) {
+                if (cnt_paren == 0) {
                     s[i] = '\0';
-                    continue;
-                }
-                paren_cnt--;
+                } else {
+                    cnt_paren--;
+                }   
             }
         }
 
