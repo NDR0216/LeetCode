@@ -1,34 +1,26 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        int paren_cnt_max = 0; // max of possible '('
-        int paren_cnt_min = 0; // min of possible '('
+        int max_paren = 0; // max of possible '('
+        int min_paren = 0; // min of possible '('
 
         for (int i = 0; i < s.size(); i++) {
             if (s[i] == '(') {
-                paren_cnt_max++;
-                paren_cnt_min++;
+                max_paren++;
+                min_paren++;
             } else if (s[i] == ')') {
-                if (paren_cnt_max == 0) { // '(' not enough
+                if (max_paren == 0) { // '(' not enough
                     return false;
                 } else {
-                    paren_cnt_max--;
-                    paren_cnt_min--;
+                    max_paren--;
+                    min_paren = max(0, min_paren - 1);
                 }
-
-                if (paren_cnt_min < 0) {
-                    paren_cnt_min = 0;
-                }
-            } else if (s[i] == '*') {
-                paren_cnt_max++;
-                paren_cnt_min--;
-
-                if (paren_cnt_min < 0) {
-                    paren_cnt_min = 0;
-                }
+            } else { // s[i] == '*'
+                max_paren++;
+                min_paren = max(0, min_paren - 1);
             }
         }
 
-        return (paren_cnt_min <= 0); // paren_cnt_min > 0: too many '('
+        return (min_paren <= 0); // min_paren > 0: too many '('
     }
 };
