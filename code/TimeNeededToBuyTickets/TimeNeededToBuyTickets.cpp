@@ -5,17 +5,9 @@ public:
 
         for (int i = 0; i < tickets.size(); i++) {
             if (i <= k) {
-                if (tickets[i] > tickets[k]) {
-                    time += tickets[k];
-                } else {
-                    time += tickets[i];
-                }
+                time += min(tickets[i], tickets[k]);
             } else { // after k
-                if (tickets[i] > tickets[k] - 1) {
-                    time += tickets[k] - 1;
-                } else {
-                    time += tickets[i];
-                }
+                time += min(tickets[i], tickets[k] - 1);
             }
         }
 
