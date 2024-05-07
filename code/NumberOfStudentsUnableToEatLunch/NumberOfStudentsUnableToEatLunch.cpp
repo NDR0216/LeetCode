@@ -17,17 +17,17 @@ public:
                 if (students_0 > 0) {
                     students_0--;
                 } else {
-                    break;
+                    return students_1;
                 }
             } else {
                 if (students_1 > 0) {
                     students_1--;
                 } else {
-                    break;
+                    return students_0;
                 }
             }
         }
 
-        return students_0 + students_1;
+        return 0;
     }
 };
