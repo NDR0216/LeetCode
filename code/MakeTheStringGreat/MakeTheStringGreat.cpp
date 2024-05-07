@@ -4,8 +4,7 @@ public:
         string output;
 
         for (int i = 0; i < s.length(); i++) {
-            if (!output.empty() &&
-                (output.back() == s[i] + 32 || output.back() == s[i] - 32)) {
+            if (!output.empty() && abs(output.back() - s[i]) == 32) {
                 output.pop_back();
             } else {
                 output.push_back(s[i]);
