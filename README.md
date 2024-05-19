@@ -1,13 +1,13 @@
 # LeetCode
 
-* Last Updated:
+* Last Updated: May/19/2024
 
 ## Progress
 
-* Solved: 152
-* Easy: 60
-* Medium: 84
-* Hard: 8
+* Solved: 152/3155 (4.82%)
+* Easy: 60/795 (7.55%)
+* Medium: 84/1657 (5.27%)
+* Hard: 8/703 (1.14%)
 
 ## Problem
 
