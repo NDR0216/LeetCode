@@ -3,8 +3,6 @@ private:
     int *root, *rank;
 
 public:
-    int num_root;
-
     UnionFind(int n) {
         root = new int[n]; // root array
         rank = new int[n]();
@@ -28,8 +26,6 @@ public:
         int rootY = find(y);
 
         if (rootX != rootY) {
-            num_root--;
-
             if (rank[rootX] > rank[rootY]) {
                 root[rootY] = rootX;
             } else if (rank[rootX] < rank[rootY]) {
