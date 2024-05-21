@@ -6,7 +6,6 @@ public:
     UnionFind(int n) {
         root = new int[n]; // root array
         rank = new int[n]();
-        num_root = n;
 
         for (int i = 0; i < n; i++) {
             root[i] = i;
