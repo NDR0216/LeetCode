@@ -1,4 +1,7 @@
 class Solution {
+private:
+    const int NUM_MAX = 101;
+
 public:
     bool* SieveOfEratosthenes(int n) { // find prime[2:n-1]
         bool* prime = new bool[n];
@@ -15,8 +18,6 @@ public:
     }
 
     int maximumPrimeDifference(vector<int>& nums) {
-        const int NUM_MAX = 101;
-
         bool* prime = SieveOfEratosthenes(NUM_MAX);
         prime[0] = false;
         prime[1] = false;
