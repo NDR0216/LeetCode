@@ -10,7 +10,7 @@
 class Solution {
 public:
     int guessNumber(int n) {
-        int left = 0, right = INT_MAX;
+        int left = 1, right = n;
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
