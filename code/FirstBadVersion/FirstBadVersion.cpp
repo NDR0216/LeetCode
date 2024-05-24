@@ -15,6 +15,8 @@ public:
             }
         }
 
+        // left == right, 1 element
+
         return left;
     }
 };
