@@ -14,6 +14,8 @@ public:
             }
         }
 
+        // nums[right] < target < nums[left], 0 element
+
         return -1;
     }
 };
