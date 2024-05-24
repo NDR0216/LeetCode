@@ -17,7 +17,7 @@ public:
             }
         }
 
-        // right*right < x < left*left
+        // right*right < x < left*left, 0 element
 
         return right;
     }
