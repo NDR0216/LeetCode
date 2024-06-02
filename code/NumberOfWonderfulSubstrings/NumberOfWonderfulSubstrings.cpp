@@ -1,8 +1,9 @@
 class Solution {
+private:
+    static const int LETTER = 10;
+
 public:
     long long wonderfulSubstrings(string word) {
-        const int LETTER = 10;
-
         unordered_map<bitset<LETTER>, int> hashmap;
 
         bitset<LETTER> bitmask;
