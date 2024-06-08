@@ -8,12 +8,11 @@ public:
         for (int i = 0; i < nums.size(); i++) {
             sum = (sum + nums[i]) % k;
 
-            if (dict.find(sum) != dict.end()) {
-                if (dict[sum] <= i - 2) {
-                    return true;
-                }
-            } else {
+            unordered_map<int, int>::iterator found = dict.find(sum);
+            if (found == dict.end()) { // not found
                 dict[sum] = i;
+            } else if (found->second <= i - 2) {
+                return true;
             }
         }
 
