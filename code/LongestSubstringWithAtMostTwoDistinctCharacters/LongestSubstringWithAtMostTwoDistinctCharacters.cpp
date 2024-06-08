@@ -7,7 +7,7 @@ public:
         int right = 0;
         int left = 0;
         for (right = 0; right < s.size(); right++) {
-            freq[s[right]]++;
+            freq[s[right]] += 1;
 
             if (freq.size() > 2) {
                 freq[s[left]] -= 1;
