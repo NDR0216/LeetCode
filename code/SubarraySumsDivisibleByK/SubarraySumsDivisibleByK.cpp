@@ -4,8 +4,6 @@ public:
         unordered_map<int, int> dict;
         dict[0] = 1;
 
-        int cnt = 0;
-
         int sum = 0;
         for (int i = 0; i < nums.size(); i++) {
             sum = (sum + nums[i]) % k;
@@ -13,8 +11,15 @@ public:
                 sum += k;
             }
 
-            cnt += dict[sum];
             dict[sum]++;
+        }
+
+        int cnt = 0;
+        for (unordered_map<int, int>::iterator it = dict.begin();
+             it != dict.end(); ++it) {
+            int value = it->second;
+
+            cnt += value * (value - 1) / 2;
         }
 
         return cnt;
