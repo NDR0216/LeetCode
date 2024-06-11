@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<string> commonChars(vector<string>& words) {
-
         unordered_map<char, int> min_freq;
         for (int i = 0; i < words[0].size(); i++) {
             min_freq[words[0][i]]++;
@@ -28,8 +27,9 @@ public:
             char key = it->first;
             int value = it->second;
 
-            for (int _ = 0; _ < value; _++) {
+            while (value > 0) { // do value times
                 answer.push_back(string(1, key));
+                value--;
             }
         }
 
