@@ -18,7 +18,7 @@ public:
         int* dist = new int[n](); // shortest path to every node
         fill_n(dist, n, INT_MAX);
 
-        // (dist[node], node)
+        // {dist[node], node}
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq;
 
         dist[k - 1] = 0;
