@@ -4,7 +4,7 @@ private:
 
 public:
     int mySqrt(int x) {
-        int left = 0, right = MAX_VALUE;
+        int left = 0, right = min(x, MAX_VALUE);
         while (left <= right) {
             int mid = (left + right) / 2;
 
