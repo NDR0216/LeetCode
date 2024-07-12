@@ -3,7 +3,7 @@ public:
     int maximumGain(string s, int x, int y) {
         if (y > x) {
             reverse(s.begin(), s.end());
-            return maximumGain(move(s), y, x);
+            swap(x, y);
         }
 
         int a = 0;
