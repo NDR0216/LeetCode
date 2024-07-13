@@ -61,8 +61,8 @@ public:
             }
 
             for (int _ = q1.size(); _ > 0; _--) {
-                int p_x, p_y;
-                tie(p_x, p_y) = q1.front();
+                int p_x = q1.front().first;
+                int p_y = q1.front().second;
                 q1.pop();
 
                 // return if found
