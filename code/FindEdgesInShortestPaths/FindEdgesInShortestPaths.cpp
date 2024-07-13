@@ -47,8 +47,8 @@ public:
         pq.push({dist[0], 0});
 
         while (!pq.empty()) {
-            int dist_v, v;
-            tie(dist_v, v) = pq.top();
+            int dist_v = pq.top().first;
+            int v = pq.top().second;
             pq.pop();
 
             if (dist_v > dist[v]) { // only first visit will be considered
