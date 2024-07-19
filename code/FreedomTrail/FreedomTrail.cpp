@@ -32,7 +32,7 @@ public:
                 }
             }
 
-            steps = next_steps;
+            steps = move(next_steps);
         }
 
         int min_step = steps[0];
