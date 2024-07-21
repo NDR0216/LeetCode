@@ -9,7 +9,7 @@ public:
             int time_i = customers[i][1];
 
             idle = max(idle, arrival_i) + time_i;
-            total += last - arrival_i;
+            total += idle - arrival_i;
         }
 
         return total / customers.size();
