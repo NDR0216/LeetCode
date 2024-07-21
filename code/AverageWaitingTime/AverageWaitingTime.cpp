@@ -1,7 +1,7 @@
 class Solution {
 public:
     double averageWaitingTime(vector<vector<int>>& customers) {
-        double total = 0;
+        double sum = 0;
         int idle = 0;
 
         for (int i = 0; i < customers.size(); i++) {
@@ -9,9 +9,9 @@ public:
             int time_i = customers[i][1];
 
             idle = max(idle, arrival_i) + time_i;
-            total += idle - arrival_i;
+            sum += idle - arrival_i;
         }
 
-        return total / customers.size();
+        return sum / customers.size();
     }
 };
