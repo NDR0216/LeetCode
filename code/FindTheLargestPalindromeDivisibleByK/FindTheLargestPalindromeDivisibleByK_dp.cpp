@@ -13,9 +13,7 @@ public:
         int** dp = new int*[(n + 1) / 2];
         for (int i = 0; i < (n + 1) / 2; i++) {
             dp[i] = new int[k]();
-            for (int j = 0; j < k; j++) {
-                dp[i][j] = -1;
-            }
+            fill(dp[i], dp[i] + k, -1);
         }
 
         // start at middle, (n-1)/2'th digit
