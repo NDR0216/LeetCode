@@ -10,7 +10,7 @@ public:
         for (unsigned int i = 1; i < 1 << coins.size(); i++) {
             LCMs[i] = 1;
             for (int j = 0; j < coins.size(); j++) {
-                if ((i >> j) & 1) { // the j'th bit of i
+                if (i & (1 << j)) { // the j'th bit of i
                     LCMs[i] = lcm(LCMs[i], coins[j]);
                 }
             }
