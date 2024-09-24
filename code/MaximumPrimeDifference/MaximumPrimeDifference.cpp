@@ -5,7 +5,7 @@ private:
 public:
     bool* SieveOfEratosthenes(int n) { // find prime[2:n-1]
         bool* prime = new bool[n];
-        fill_n(prime, n, true);
+        fill(prime, prime + n, true);
 
         for (int i = 2; i < sqrt(n); i++) {
             if (prime[i]) {
