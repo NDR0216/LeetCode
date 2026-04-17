@@ -14,10 +14,7 @@ public:
         TrieNode* p = root;
 
         for (int i = 0; i < word.size(); i++) {
-            unordered_map<char, TrieNode*>::iterator iter =
-                p->children.find(word[i]);
-
-            if (iter == p->children.end()) {
+            if (p->children.find(word[i]) == p->children.end()) {
                 p->children[word[i]] = new TrieNode();
             }
 
