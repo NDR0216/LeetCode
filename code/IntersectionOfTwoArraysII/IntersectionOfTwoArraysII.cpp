@@ -9,7 +9,7 @@ public:
 
         vector<int> result;
         for (int i = 0; i < nums2.size(); i++) {
-            auto found = freq.find(nums2[i]);
+            unordered_map<int, int>::iterator found = freq.find(nums2[i]);
 
             if (found != freq.end() && found->second > 0) {
                 found->second--;
