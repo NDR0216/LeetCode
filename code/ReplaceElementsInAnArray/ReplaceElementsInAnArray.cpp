@@ -3,10 +3,8 @@ public:
     vector<int> arrayChange(vector<int>& nums, vector<vector<int>>& operations) {
         map<int, int> dict;
         
-        for (int i = 0; i < operations.size(); i++) {
-            map<int, int>::iterator it = dict.find(operations[i][0]);
-            
-            if (it != dict.end()) {
+        for (int i = 0; i < operations.size(); i++) {     
+            if (dict.find(operations[i][0]) != dict.end()) {
                 dict[operations[i][1]] = dict[operations[i][0]];
                 dict.erase(operations[i][0]); 
             } else {
@@ -22,9 +20,7 @@ public:
         }
         
         for (int i = 0; i < nums.size(); i++) {
-            map<int, int>::iterator it = dict_reversed.find(nums[i]);
-            
-            if (it != dict_reversed.end()) {
+            if (dict_reversed.find(nums[i]) != dict_reversed.end()) {
                 nums[i] = dict_reversed[nums[i]];
             }
         }
