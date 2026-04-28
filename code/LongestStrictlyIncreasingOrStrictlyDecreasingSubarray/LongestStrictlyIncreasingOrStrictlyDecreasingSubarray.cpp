@@ -18,7 +18,7 @@ public:
                 dec = 1;
             }
 
-            max_length = max(max_length, max(inc, dec));
+            max_length = max({max_length, inc, dec});
         }
 
         return max_length;
