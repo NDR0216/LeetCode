@@ -23,8 +23,8 @@ public:
 
         // binary search
 
-        int left = INT_MAX; // min differnce
-        for (int i = 1; i < position.size(); i++) {
+        int left = position[1] - position[0] + 1; // min differnce
+        for (int i = 2; i < position.size(); i++) {
             left = min(left, position[i] - position[i - 1] + 1);
         }
         int right = (position.back() - position[0]) / (m - 1) + 1;
