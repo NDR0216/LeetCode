@@ -35,8 +35,8 @@ public:
             steps = move(next_steps);
         }
 
-        int min_step = steps[0];
-        for (int i = 1; i < steps.size(); i++) {
+        int min_step = INT_MAX;
+        for (int i = 0; i < steps.size(); i++) {
             min_step = min(min_step, steps[i]);
         }
 
